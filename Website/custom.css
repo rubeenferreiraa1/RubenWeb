@@ -89,6 +89,9 @@ nav ul li a:hover {
     nav {
         display: none;
     }
+    .about-me img {
+        display: none;
+    }
 }
 
 
@@ -108,4 +111,25 @@ nav ul li a:hover {
 
 .about-me p {
     letter-spacing: 3px;
+}
+
+.column{
+    margin-right: 20%;
+    float: left;
+    letter-spacing: 2px;
+}
+
+.info p{
+    width: 100%;
+    letter-spacing: 3px;
+    padding-right: 100px;
+}
+
+.about-me img {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 10px;
+    margin-top: -20%;
+    margin-left: 60%;
+
 }
