@@ -113,16 +113,21 @@ nav ul li a:hover {
     letter-spacing: 3px;
 }
 
-.column{
-    margin-right: 20%;
+.column ul{
     float: left;
     letter-spacing: 2px;
 }
 
+.column ul li{
+    margin-left: 40px;
+    margin-top: 1em;
+    float: left;
+}
+
 .info p{
-    width: 100%;
+    margin-top: 10%;
     letter-spacing: 3px;
-    padding-right: 100px;
+
 }
 
 .about-me img {
