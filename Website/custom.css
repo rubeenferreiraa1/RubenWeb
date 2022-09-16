@@ -50,6 +50,7 @@
 
 }
 
+
 /* sideNavBar Section*/
 nav {
     display: flex;
@@ -174,10 +175,9 @@ nav ul li a:hover {
     transform: scale(.9);
 }
 
-
 /* Experience Section*/
 .secExperience  {
-    margin-top: -15%;
+    margin-top: -20%;
     width: 100%;
     height: 100vh;
     color: #fff;
@@ -246,10 +246,7 @@ nav ul li a:hover {
   }
 
 
-
-
 /* Footer Section*/
-
 .footer {
     width: 100%;
     text-align: center;
@@ -261,7 +258,7 @@ nav ul li a:hover {
         color: rgb(160, 160, 160);
 }
 
-
+/*button right side*/
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
