@@ -5,7 +5,7 @@
     font-family:'Poppins', sans-serif;
     background: #2b323c ;
 }
-
+/* Introduction Section*/
 .header {
     width: 100%;
     height: 100vh;
@@ -50,6 +50,7 @@
 
 }
 
+/* sideNavBar Section*/
 nav {
     display: flex;
     width: 100%;
@@ -85,11 +86,12 @@ nav ul li a:hover {
     color: #fbff00;
 }
 
+/*Mobile views*/
 @media (max-width: 738px) {
     nav {
         display: none;
     }
-    .about-me img {
+    .imgCard {
         display: none;
     }
 
@@ -98,11 +100,40 @@ nav ul li a:hover {
         width: 300%;
     }
 
-    .img {
+    .imgCard {
         width: 100%;
     }
+
+    .about-me{
+        margin-top: -20%;
+    }
+
+    .secExperience{
+        margin-top: 20%;
+    }
+
+    #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 10px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: #fbff00; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 10px; /* Some padding */
+        border-radius: 300px; /* Rounded corners */
+        font-size: 15px; /* Increase font size */
+      }
+      
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
 }
 
+/* About Section*/
 .about-me {
     margin-top: -10% ;
     width: 100%;
@@ -131,7 +162,20 @@ nav ul li a:hover {
     margin-right: 15%;
     display: inline;
 }
+.imgCard{
+    margin-right: 20%;
+    margin-top: -25%;
+    border-radius: 5px;
+    float: right;
+    transition: transform .7s ease;
+    cursor: pointer;
+}
+.imgCard:hover{
+    transform: scale(.9);
+}
 
+
+/* Experience Section*/
 .secExperience  {
     margin-top: -15%;
     width: 100%;
@@ -147,6 +191,7 @@ nav ul li a:hover {
     margin-bottom: 3%;
 }
 
+/* Cards Section*/
 .card {
     background-color: #2b323c;
     box-shadow: 0 4px 8px 0 rgba(143, 156, 7, 0.2);
@@ -172,7 +217,6 @@ nav ul li a:hover {
     margin-bottom: 2%;
   }
 
-  
   button {
     border: none;
     outline: 0;
@@ -200,3 +244,43 @@ nav ul li a:hover {
     color: #fbff00; ;
     opacity: 0.7;
   }
+
+
+
+
+/* Footer Section*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.footer p{
+        font-size: 10px;
+        color: rgb(160, 160, 160);
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #fbff00; /* Set a background color */
+    color: #000; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 300px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+    width: 2%;
+  }
+  
+
+
+
+
+
