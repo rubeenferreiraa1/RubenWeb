@@ -54,12 +54,9 @@
     color: #fbff00;;
 }
 
-
-
-
 /* About Section*/
 .about-me {
-    margin-top: -25% ;
+    margin-top: -20% ;
     width: 100%;
     height: 100vh;
     color: #fff;
@@ -76,19 +73,18 @@
     text-align: justify;
     background-color: transparent;
     letter-spacing: 3px;
+    margin-bottom: 3rem;
 }
-.listTech ul{
-    margin-bottom: 2rem;
-    margin-top: 2em;
+.listTech ul{ 
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
     letter-spacing: 3px;
-    width: 100%;
-    float: left;
-    list-style: none;
 }
 .listTech li {
+    display: block;
     margin-top: 1rem;
     background-color: transparent;
-    margin-right: 25%;
 }
 
 
