@@ -23,6 +23,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
+
 // progressbar.js@1.0.0 version is used
 // Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
 
@@ -33,27 +35,26 @@ var bar = new ProgressBar.Circle(container, {
   strokeWidth: 4,
   trailWidth: 1,
   easing: 'easeInOut',
-  duration: 1400,
+  duration: 1900,
   text: {
     autoStyleContainer: false
   },
   from: { color: '#aaa', width: 1 },
-  to: { color: '#333', width: 4 },
+  to: { color: '#fbff00', width: 4 },
   // Set default step function for all animate calls
   step: function(state, circle) {
     circle.path.setAttribute('stroke', state.color);
     circle.path.setAttribute('stroke-width', state.width);
 
-    var value = Math.round(circle.value() * 100);
-    if (value === 0) {
-      circle.setText('');
-    } else {
-      circle.setText(value);
-    }
+    //var value = Math.round(circle.value() * 100);
+    //if (value === 0) {
+      //circle.setText('');
+    //} else {
+      //circle.setText(value);
+    //}
 
   }
 });
-bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-bar.text.style.fontSize = '2rem';
-
+//bar.text.style.fontFamily = '"Poppins", Helvetica, sans-serif';
+//bar.text.style.fontSize = '2rem';
 bar.animate(1.0);  // Number from 0.0 to 1.0
