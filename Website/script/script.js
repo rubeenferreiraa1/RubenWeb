@@ -58,3 +58,6 @@ var bar = new ProgressBar.Circle(container, {
 //bar.text.style.fontFamily = '"Poppins", Helvetica, sans-serif';
 //bar.text.style.fontSize = '2rem';
 bar.animate(1.0);  // Number from 0.0 to 1.0
+
+
+$('.carousel').carousel()
