@@ -191,8 +191,10 @@
 
   /* Carousel section*/
 
-.carouselExampleIndicators{
-    width: 40%;
+
+.carousel-inner{
+    position: relative;
+    max-width: 1000px;
 }
 
 .carousel-inner img {
@@ -271,6 +273,7 @@ nav ul li a:hover {
 }
 
 .social-icons a{
+    color: #fbff00;
     padding-right: 30px ;
     margin-left: 5px;
 }
