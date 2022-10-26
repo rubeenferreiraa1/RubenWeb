@@ -196,7 +196,7 @@ nav ul {
 
 nav ul li {
     display: block;
-    list-style: none;
+    list-style: none;   
     margin: 10px 30px;
     background-color: transparent;
 }
